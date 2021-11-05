@@ -1,1 +1,43 @@
 /* Other rules */
+
+* {
+    box-sizing: border-box !important;
+    font-family: 'Segoe UI' !important;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    border: 1px solid white;
+}
+
+main {
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border: 1px solid white;
+}
+
+footer {
+    color: white;
+    border: 1px solid white;
+}
+
+footer > span {
+    font-weight: bold;
+}
+
+.counter {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 1px solid red;
+}
